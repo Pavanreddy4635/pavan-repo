@@ -45,7 +45,7 @@ merged_data.head()
 
 df = pd.read_csv('/content/data/merged_data.csv')
 
-#print the last 5 rows
+
 df.tail()
 
 df.shape
@@ -54,7 +54,7 @@ df.columns
 
 df.info()
 
-#print the null values
+
 df.isnull().sum()
 
 #fill the null values with mean
