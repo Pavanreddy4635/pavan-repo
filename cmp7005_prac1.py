@@ -42,7 +42,7 @@ print(f"Total records: {merged_data.shape[0]}")
 print(f"Total features: {merged_data.shape[1]}")
 merged_data.head()
 
-#uoload the dataset
+
 df = pd.read_csv('/content/data/merged_data.csv')
 
 #print the last 5 rows
